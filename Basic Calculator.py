@@ -1,12 +1,11 @@
 #Your Simple Calculator:
 from ast import While
 
-
+#Your Simple Functions
 def Addition(a,b):
     answer = int (a) + int (b)
     print(str(a) + " + " + str(b) + " = " + str(answer) )
-
-
+    
 def Subtraction(a,b):
     answer = int(a) - int(b)
     print(str(a) + " - " + str(b) + " = " + str(answer))
@@ -19,6 +18,8 @@ def Divid(a,b):
     answer = int(a) / int(b)
     print(str(a) + " / " + str(b) + " = " + str(answer))
     
+#Your Loop so your calculator run till you no longer need it
+    
 while True:
 
     print("\nA. Addition")
@@ -27,7 +28,7 @@ while True:
     print("D. Division")
     print("E. Exit")
 
-    Choice = input("\nCalculate now! ")
+    Choice = input("\nLet's Calculate! ")
 
     if Choice == "a" or Choice == "A":
         print("Addition")
